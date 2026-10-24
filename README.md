@@ -1,20 +1,24 @@
-# 1laba_3sem_false — Черновик структур данных
+# Структуры данных · ранний вариант
 
-Лабораторная №1, 3 семестр, первая (неудачная) попытка. Оставлена для истории — итоговая версия в `1laba_3sem`.
+![Стек](https://img.shields.io/badge/C%2B%2B-334155?style=flat-square) ![Семестр](https://img.shields.io/badge/семестр-3-0f766e?style=flat-square) ![Статус](https://img.shields.io/badge/статус-%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B2%D0%B8%D0%BA-64748b?style=flat-square)
 
-## Что внутри
-Те же структуры, но в раздельном виде `.cpp/.h`: `Array`, `LinkedList`, `DoublyLinkedList`, `Queue`, `Stack`, `HashTable`, `CompleteBinaryTree`, `main.cpp`.
+Сохранённый черновик лабораторной №1. Структуры разделены на заголовки и файлы реализации. Для знакомства с итоговой работой удобнее начать с [1laba_3sem](https://github.com/Assweg/1laba_3sem).
 
-## Стек
-C++
+## Что сохранено
 
-## Запуск
+Массив, списки, очередь, стек, хеш-таблица и бинарное дерево. Файл [main.cpp](main.cpp) связывает их с консольным меню.
+
+## Сборка из исходников
+
 ```bash
-g++ *.cpp -o main && ./main
+c++ -std=c++17 *.cpp -o structures_draft
+./structures_draft
 ```
 
 ## Статус
-📦 Архивный черновик. Смотреть как основную — `1laba_3sem`.
+
+Исторический вариант решения. Он сохранён для сравнения с последующей реализацией; успешная сборка на текущем компиляторе не подтверждена.
 
 ---
-**Автор:** Assweg · Telegram: [@assweg](https://t.me/assweg) · Учебное портфолио, все работы — студенческие.
+
+[Все учебные работы](https://github.com/Assweg/nstu) · [Профиль Assweg](https://github.com/Assweg)
